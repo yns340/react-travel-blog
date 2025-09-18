@@ -1,12 +1,38 @@
-# React + Vite
+# Travel Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React travel blog app with routing and persistent storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This project is a travel blog application built with React. It features three pages using **React Router** for navigation, dynamic routes with `useParams`, and search functionality powered by URL query parameters (`useSearchParams`). Data is persisted in `localStorage` with a custom hook, and search input is debounced for performance optimization. Icons are imported from the **lucide-react** library.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- 3 separate pages with **React Router**
+- Dynamic routes using `useParams`
+- Search trips with URL query parameters (`useSearchParams`)
+- Persistent data storage using `localStorage` via a custom hook
+- Debounced search input with a custom `useDebounce` hook
+- Icons via **lucide-react**
+- Styling with TailwindCSS
+
+---
+
+## Technologies & Tools
+
+- React (with functional components and hooks)
+- React Router (basic routing, dynamic routes, search params)
+- TailwindCSS for styling
+- pnpm as package manager
+- lucide-react for icons
+- Custom hooks written in JavaScript (`useStorage.js`, `useDebounce.js`)
+
+---
+
+## Notes
+
+This project is a learning exercise from my frontend internship focused on React Router, localStorage usage, and React fundamentals.
