@@ -1,4 +1,4 @@
-# Travel Blog
+# Travel Blog 🧳
 
 A simple React travel blog app with routing and persistent storage.
 
